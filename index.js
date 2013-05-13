@@ -2,7 +2,7 @@ var fs = require('fs');
 var spawn = require('child_process').spawn;
 var glob = require('glob');
 
-var limit = 480;
+var limit = 999;
 
 glob('**/*', function(err, files) {
   if (files.length > limit) files = files.slice(0, limit);
