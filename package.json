@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "express": "~3.2.4"
+    "express": "~3.2.4",
+    "docpad": "~6.34.1"
   },
   "scripts": {
     "test": "node index & node index"
